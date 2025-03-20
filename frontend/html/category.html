@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, shrink-to-fit=no">
+    <meta name="description" content="Suha - Multipurpose Ecommerce Mobile HTML Template">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#625AFA">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- The above tags *must* come first in the head, any other head content must come *after* these tags -->
+    <!-- Title -->
+    <title>Suha - Multipurpose Ecommerce Mobile HTML Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+    <!-- CSS Libraries -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/tabler-icons.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+
+    <div id="loader" class="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <div class="offcanvas offcanvas-start suha-filter-offcanvas-wrap" tabindex="-1" id="suhaFilterOffcanvas"
+        aria-labelledby="suhaFilterOffcanvasLabel">
+        <button class="btn-close text-reset" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <div class="offcanvas-body py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <!-- Catagory-->
+                        <div class="widget catagory mb-4">
+                            <h6 class="widget-title mb-2">Brand</h6>
+                            <div class="widget-desc">
+                                <!-- Single Checkbox-->
+                                <div class="form-check">
+                                    <input class="form-check-input" id="zara" type="checkbox" checked="">
+                                    <label class="form-check-label" for="zara">Zara</label>
+                                </div>
+                                <!-- Single Checkbox-->
+                                <div class="form-check">
+                                    <input class="form-check-input" id="Gucci" type="checkbox">
+                                    <label class="form-check-label" for="Gucci">Gucci</label>
+                                </div>
+                                <!-- Single Checkbox-->
+                                <div class="form-check">
+                                    <input class="form-check-input" id="Addidas" type="checkbox">
+                                    <label class="form-check-label" for="Addidas">Addidas</label>
+                                </div>
+                                <!-- Single Checkbox-->
+                                <div class="form-check">
+                                    <input class="form-check-input" id="Nike" type="checkbox">
+                                    <label class="form-check-label" for="Nike">Nike</label>
+                                </div>
+                                <!-- Single Checkbox-->
+                                <div class="form-check">
+                                    <input class="form-check-input" id="Denim" type="checkbox">
+                                    <label class="form-check-label" for="Denim">Denim</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <!-- Color-->
+                        <div class="widget color mb-4">
+                            <h6 class="widget-title mb-2">Color Family</h6>
+                            <div class="widget-desc">
+                                <!-- Single Checkbox-->
+                                <div class="form-check">
+                                    <input class="form-check-input" id="Purple" type="checkbox" checked="">
+                                    <label class="form-check-label" for="Purple">Purple</label>
+                                </div>
+                                <!-- Single Checkbox-->
+                                <div class="form-check">
+                                    <input class="form-check-input" id="Black" type="checkbox">
+                                    <label class="form-check-label" for="Black">Black</label>
+                                </div>
+                                <!-- Single Checkbox-->
+                                <div class="form-check">
+                                    <input class="form-check-input" id="White" type="checkbox">
+                                    <label class="form-check-label" for="White">White</label>
+                                </div>
+                                <!-- Single Checkbox-->
+                                <div class="form-check">
+                                    <input class="form-check-input" id="Red" type="checkbox">
+                                    <label class="form-check-label" for="Red">Red</label>
+                                </div>
+                                <!-- Single Checkbox-->
+                                <div class="form-check">
+                                    <input class="form-check-input" id="Pink" type="checkbox">
+                                    <label class="form-check-label" for="Pink">Pink</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <!-- Size-->
+                        <div class="widget size mb-4">
+                            <h6 class="widget-title mb-2">Size</h6>
+                            <div class="widget-desc">
+                                <!-- Single Checkbox-->
+                                <div class="form-check">
+                                    <input class="form-check-input" id="XtraLarge" type="checkbox" checked="">
+                                    <label class="form-check-label" for="XtraLarge">Xtra Large</label>
+                                </div>
+                                <!-- Single Checkbox-->
+                                <div class="form-check">
+                                    <input class="form-check-input" id="Large" type="checkbox">
+                                    <label class="form-check-label" for="Large">Large</label>
+                                </div>
+                                <!-- Single Checkbox-->
+                                <div class="form-check">
+                                    <input class="form-check-input" id="medium" type="checkbox">
+                                    <label class="form-check-label" for="medium">Medium</label>
+                                </div>
+                                <!-- Single Checkbox-->
+                                <div class="form-check">
+                                    <input class="form-check-input" id="Small" type="checkbox">
+                                    <label class="form-check-label" for="Small">Small</label>
+                                </div>
+                                <!-- Single Checkbox-->
+                                <div class="form-check">
+                                    <input class="form-check-input" id="ExtraSmall" type="checkbox">
+                                    <label class="form-check-label" for="ExtraSmall">Extra Small</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <!-- Ratings-->
+                        <div class="widget ratings mb-4">
+                            <h6 class="widget-title mb-2">Ratings</h6>
+                            <div class="widget-desc">
+                                <!-- Single Checkbox-->
+                                <div class="form-check">
+                                    <input class="form-check-input" id="5star" type="checkbox" checked="">
+                                    <label class="form-check-label" for="5star"><i
+                                            class="ti ti-star-filled text-warning"></i><i
+                                            class="ti ti-star-filled text-warning"></i><i
+                                            class="ti ti-star-filled text-warning"></i><i
+                                            class="ti ti-star-filled text-warning"></i><i
+                                            class="ti ti-star-filled text-warning"></i></label>
+                                </div>
+                                <!-- Single Checkbox-->
+                                <div class="form-check">
+                                    <input class="form-check-input" id="4star" type="checkbox">
+                                    <label class="form-check-label" for="4star"><i
+                                            class="ti ti-star-filled text-warning"></i><i
+                                            class="ti ti-star-filled text-warning"></i><i
+                                            class="ti ti-star-filled text-warning"></i><i
+                                            class="ti ti-star-filled text-warning"></i><i
+                                            class="ti ti-star-filled text-secondary"></i></label>
+                                </div>
+                                <!-- Single Checkbox-->
+                                <div class="form-check">
+                                    <input class="form-check-input" id="3star" type="checkbox">
+                                    <label class="form-check-label" for="3star"><i
+                                            class="ti ti-star-filled text-warning"></i><i
+                                            class="ti ti-star-filled text-warning"></i><i
+                                            class="ti ti-star-filled text-warning"></i><i
+                                            class="ti ti-star-filled text-secondary"></i><i
+                                            class="ti ti-star-filled text-secondary"></i></label>
+                                </div>
+                                <!-- Single Checkbox-->
+                                <div class="form-check">
+                                    <input class="form-check-input" id="2star" type="checkbox">
+                                    <label class="form-check-label" for="2star"><i
+                                            class="ti ti-star-filled text-warning"></i><i
+                                            class="ti ti-star-filled text-warning"></i><i
+                                            class="ti ti-star-filled text-secondary"></i><i
+                                            class="ti ti-star-filled text-secondary"></i><i
+                                            class="ti ti-star-filled text-secondary"></i></label>
+                                </div>
+                                <!-- Single Checkbox-->
+                                <div class="form-check">
+                                    <input class="form-check-input" id="1star" type="checkbox">
+                                    <label class="form-check-label" for="1star"><i
+                                            class="ti ti-star-filled text-warning"></i><i
+                                            class="ti ti-star-filled text-secondary"></i><i
+                                            class="ti ti-star-filled text-secondary"></i><i
+                                            class="ti ti-star-filled text-secondary"></i><i
+                                            class="ti ti-star-filled text-secondary"></i></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <!-- Payment Type-->
+                        <div class="widget payment-type mb-4">
+                            <h6 class="widget-title mb-2">Payment Type</h6>
+                            <div class="widget-desc">
+                                <!-- Single Checkbox-->
+                                <div class="form-check">
+                                    <input class="form-check-input" id="cod" type="checkbox" checked="">
+                                    <label class="form-check-label" for="cod">Cash On Delivery</label>
+                                </div>
+                                <!-- Single Checkbox-->
+                                <div class="form-check">
+                                    <input class="form-check-input" id="paypal" type="checkbox">
+                                    <label class="form-check-label" for="paypal">Paypal</label>
+                                </div>
+                                <!-- Single Checkbox-->
+                                <div class="form-check">
+                                    <input class="form-check-input" id="checkpayment" type="checkbox">
+                                    <label class="form-check-label" for="checkpayment">Check Payment</label>
+                                </div>
+                                <!-- Single Checkbox-->
+                                <div class="form-check">
+                                    <input class="form-check-input" id="payonner" type="checkbox">
+                                    <label class="form-check-label" for="payonner">Payonner</label>
+                                </div>
+                                <!-- Single Checkbox-->
+                                <div class="form-check">
+                                    <input class="form-check-input" id="mobbanking" type="checkbox">
+                                    <label class="form-check-label" for="mobbanking">Mobile Banking</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <!-- Price Range-->
+                        <div class="widget price-range mb-4">
+                            <h6 class="widget-title mb-2">Price Range</h6>
+                            <div class="widget-desc">
+                                <!-- Min Value-->
+                                <div class="row g-2">
+                                    <div class="col-6">
+                                        <div class="form-floating">
+                                            <input class="form-control" id="floatingInput" type="text" placeholder="1"
+                                                value="1">
+                                            <label for="floatingInput">Min</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-floating">
+                                            <input class="form-control" id="floatingInput" type="text" placeholder="1"
+                                                value="5000">
+                                            <label for="floatingInput">Max</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <!-- Apply Filter-->
+                        <div class="apply-filter-btn"><a class="btn btn-lg btn-success w-100" href="#">Apply Filter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-content-wrapper">
+
+
+        <div class="pt-3">
+            <div class="container">
+                <div class="row">
+                    <!-- Sol Alan: Kişisel Bilgiler (Card) -->
+                    <div class="col-12 col-md-6">
+                        <div class="info-card card">
+                            <div class="card-body">
+                                <h5 class="card-title" id="fullName"></h5>
+                                <p class="card-text" id="creditAmount"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="cart-card card">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <h5 class="card-title m-0">Sepetiniz</h5>
+                                    <button class="btn btn-primary" id="pay-button">Ödeme Yap</button>
+                                </div>
+                                <ul id="cart-items" class="list-group">
+                                    <!-- Sepet Elemanları Burada Dinamik Olarak Görünecek -->
+                                </ul>
+                                <div class="d-flex justify-content-between mt-3">
+                                    <strong>Harcanacak Puan: </strong>
+                                    <span id="total-amount">0 Puan</span>
+                                </div>
+                                <div class="d-flex justify-content-between mt-2">
+                                    <strong>Kazanılacak Puan: </strong>
+                                    <span id="total-points">0 Puan</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!-- Ürünler Listesi (Margin Top Eklenecek) -->
+                <div class="top-products-area pb-3 mt-4">
+                    <div class="container">
+                        <div class="row g-2 rtl-flex-d-row-r" id="product-list">
+                            <!-- Ürünler Burada Listelenecek -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="top-products-area pb-3">
+            <div class="container">
+
+                <div class="row g-2 rtl-flex-d-row-r" id="product-list">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+ 
+    <div class="internet-connection-status" id="internetStatus"></div>
+
+    <!-- All JavaScript Files-->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/waypoints.min.js"></script>
+    <script src="../js/jquery.easing.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/jquery.magnific-popup.min.js"></script>
+    <script src="../js/jquery.counterup.min.js"></script>
+    <script src="../js/jquery.countdown.min.js"></script>
+    <script src="../js/jquery.passwordstrength.js"></script>
+    <script src="../js/jquery.nice-select.min.js"></script>
+    <script src="../js/theme-switching.js"></script>
+    <script src="../js/no-internet.js"></script>
+    <script src="../js/active.js"></script>
+    <script src="../js/pwa.js"></script>
+    <script src="../js/category.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.22/dist/sweetalert2.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jwt-decode@3.1.2/build/jwt-decode.min.js"></script>
+
+    
+</body>
+
+</html>

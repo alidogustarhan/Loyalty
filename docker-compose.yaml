@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    ports:
+      - "3001:3001"
+    environment:
+      - PORT=3001
+      - NODE_ENV=production
+      - JWT_SECRET=$2y$10$O6qAABmxadaLPtJDmSVfxeEPnYDPuxz33zICnuzdl5euBjcQjYlQG
+      - MONGO_URI=mongodb+srv://alitarhan:pinaronline@pinaronline.ajfrb.mongodb.net/?retryWrites=true&w=majority&appName=Pinaronline
+    volumes:
+      - .:/app
+    depends_on:
+      - db
+
+  db:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+
+volumes:
+  mongodb_data:
